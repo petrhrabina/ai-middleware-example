@@ -27,14 +27,19 @@ This command returns the standard response without the pivotal tracker api call
 ```bash
 python main.py "Hi, how are you?"
 ```
+![Default Response](images/default_response.png)
+
 This command initiates an api call to the pivotal tracker and returns any unstarted tasks
 ```bash
 python main.py "What unstarted tasks do we have?"
 ```
+![Unstarted Tasks](images/unstarted_response.png)
+
 This command initiates an api call to the pivotal tracker and returns any started tasks
 ```bash
 python main.py "List the current sprint's started stories."
 ```
+![Started Tasks](images/started_response.png)
 
 ### How It Works
 1. User input is processed by an AI model to determine the query type.
