@@ -16,8 +16,8 @@ This project demonstrates the concept of an AI middleware system, showcasing how
 - Demonstration of how AI can enhance data retrieval and interpretation
 
 ### Quick Start
-To run this example:
-1. Set up the environment:
+
+Set up the environment:
 ```bash
 mv .template.env .env
 ```
@@ -47,8 +47,7 @@ python main.py "List the current sprint's started stories."
 3. Another AI call combines the fetched data with the original query to generate a human-readable response.
 
 ### Prompt Examples
-The `middleware/prompts` folder contains:
-- `default.prompt`: Shows how to write prompt instructions for Anthropic LLM model to determine user intent and provide a standard response or request clarification.
-- `detail.prompt`: Contains prompt instructions that force the LLM to respond precisely and in detail, based solely on data obtained from the API call.
-
 This example also demonstrates effective prompting techniques for Anthropic models.
+- `middleware/prompts/default.prompt`: Shows how to write prompt instructions for Anthropic LLM model to determine user intent and provide a standard response or request clarification.
+- `middleware/prompts/detail.prompt`: Contains prompt instructions that force the LLM to respond precisely and in detail, based solely on data obtained from the API call.
+
